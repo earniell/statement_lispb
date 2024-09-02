@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/styles/style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>Электронная ведомость</title>
+</head>
+<body class="body--color">
+<div class="auth_2-wrapper">
+<header class="auth_2-header">
+  <div class= "auth_2-wrap">
+    <p class="auth_2-copyright">Лицей искусств "Санкт-Петербург"</p>
+    <h1 class="auth_2-heading">Электронная ведомость</h1>    
+  </div>
+
+    
+</header>
+<main class="container auth_2-main">
+  <form class="auth_2-form" method="post">
+    <input class="auth_2-form__input" type="text" id="auth-form__login" name="auth-form__login" required autocomplete="on" placeholder="ID преподавателя">
+    <button class="auth_2-form__button" type="submit" >Войти</button>
+</form>
+
+
+</main>
+<footer class="footer">
+    
+</footer>
+</div>
+</body>
+</html>
